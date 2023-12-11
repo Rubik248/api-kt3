@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CRUD App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>CRUD App</h1>
+
+  <div class="input-section">
+    <input type="text" id="inputTitle" placeholder="Title">
+    <input type="text" id="inputDescription" placeholder="Description">
+    <button onclick="createItem()">Add</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody">
+
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
